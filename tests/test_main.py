@@ -1,4 +1,5 @@
 from simple_calculator.main import SimpleCalculator
+import pytest
 
 
 def test_add_two_numbers():
@@ -67,3 +68,10 @@ def test_div_by_zero_returns_inf():
     result = calculator.div(5, 0)
 
     assert result == float("inf")
+
+
+def test_mul_by_zero_raises_exception():
+    calculator = SimpleCalculator()
+
+    with pytest.raises(ValueError):
+        calculator.mul(3, 0)
