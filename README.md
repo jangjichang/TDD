@@ -14,6 +14,11 @@ As you can see the requirements are pretty simple, and a couple of them are defi
 
 ---
 
+# TDD Rule
+- TDD rule number 1: Test first, code later
+- TDD rule number 2: Add the reasonably minimum amount of code you need to pass the tests
+- TDD rule number 3: You shouldn't have more than one failing test at a time
+
 ## python package version control
 
 - use poetry

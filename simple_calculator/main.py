@@ -1,3 +1,3 @@
 class SimpleCalculator:
-    def add(self, a, b):
-        return 9
+    def add(self, a, b, c=0):
+        return a + b + c
