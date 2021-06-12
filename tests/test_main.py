@@ -35,9 +35,9 @@ def test_subtract_two_numbers():
     assert result == 7
 
 
-def test_subtract_two_numbers_2():
+def test_mul_two_numbers():
     calculator = SimpleCalculator()
 
-    result = calculator.sub(7, 3)
+    result = calculator.mul(6, 4)
 
-    assert result == 4
+    assert result == 24

@@ -4,3 +4,6 @@ class SimpleCalculator:
 
     def sub(self, a, b):
         return a - b
+
+    def mul(self, a, b):
+        return a * b
