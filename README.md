@@ -20,6 +20,7 @@ As you can see the requirements are pretty simple, and a couple of them are defi
 - TDD rule number 3: You shouldn't have more than one failing test at a time
 - TDD rule number 4: Write code that passes the test. Then refactor it.
 - TDD rule number 5: A test should fail the first time you run it. If it doesn't, ask yourself why you are adding it.
+- TDD rule number 6: Never refactor without tests.
 
 ## python package version control
 
