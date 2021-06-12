@@ -10,3 +10,6 @@ class SimpleCalculator:
 
     def mul(self, *args):
         return reduce(lambda x, y: x * y, args)
+
+    def div(self, a, b):
+        return a / b
