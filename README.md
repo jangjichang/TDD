@@ -22,6 +22,17 @@ As you can see the requirements are pretty simple, and a couple of them are defi
 - TDD rule number 5: A test should fail the first time you run it. If it doesn't, ask yourself why you are adding it.
 - TDD rule number 6: Never refactor without tests.
 
+# The Testing grid
+
+| Flow     | Type    | Test? |
+|----------|---------|-------|
+| Incoming | Query   | Yes   |
+| Incoming | Command | Yes   |
+| Private  | Query   | Maybe |
+| Private  | Command | Maybe |
+| Outgoing | Query   | Mock  |
+| Outgoing | Command | Mock  |
+
 ## python package version control
 
 - use poetry
