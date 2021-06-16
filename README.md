@@ -38,5 +38,5 @@ As you can see the requirements are pretty simple, and a couple of them are defi
 - use poetry
 
 install package
-> poetry add `cat requirements/test.txt`
+> poetry add `cat requirements/test.txt`  
 > poetry add `cat requirements/prod.txt`
